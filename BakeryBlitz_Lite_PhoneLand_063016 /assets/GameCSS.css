@@ -1,0 +1,596 @@
+.gamebg{
+    background-image:url("gamebg_iPhoneLand.jpg");
+    position:absolute;
+    width:568px;
+    height:320px;
+    left:0px;
+    top:0px;
+}
+
+.cakepan{
+    background-image:url("cakepan_iPhone.png");
+    position:absolute;
+    width:26px;
+    height:23px;
+    left:10px;
+    top:40px;
+}
+
+.cakebatter{
+    background-image:url("cakebatter_iPhone.png");
+    position:absolute;
+    width:28px;
+    height:23px;
+    left:10px;
+    top:95px;
+}
+
+.bounce{
+     -webkit-animation:bounce .1s alternate;
+}
+
+.check{
+    background-image:url("checkmark_iPhone.png");
+    position:absolute;
+    width:15px;
+    height:15px;
+    left:19px;
+    top:42px;
+     -webkit-animation:bounce .1s alternate;
+}
+
+.check2{
+    left:51px;
+    top:187px;
+}
+
+.check3{
+    left:168px;
+    top:278px;
+}
+
+.check4{
+    left:355px;
+    top:67px;
+}
+
+.greenbar{
+    background-image:url("greenbar_iPhone.png");
+    position:absolute;
+    width:0px;
+    height:14px;
+    left:237px;
+    top:4px;
+}
+
+.green{
+    -webkit-animation:green 1s linear forwards;
+}
+
+.green2{
+    -webkit-animation:green2 .5s linear forwards;
+}
+
+.pinkbar{
+    background-image:url("pinkbar_iPhone.png");
+    position:absolute;
+    width:0px;
+    height:14px;
+    left:383px;
+    top:4px;
+}
+
+.pink{
+    -webkit-animation:pink 1s linear forwards;
+}
+
+.pink2{
+    -webkit-animation:pink2 .5s linear forwards;
+}
+
+.coinhint{
+    position:absolute;
+    border:3px solid #FFEB3B;
+    -webkit-filter:blur(1px);
+    border-radius:25px;
+    width:17px;
+    height:17px;
+    left:195px;
+    top:-1px;
+    -webkit-animation:bounce .08s linear alternate 8;
+}
+
+.coin{
+    background-image:url("coin_iPhone.png");
+    position:absolute;
+    width:17px;
+    height:15px;
+    left:312px;
+    top:83px;
+    -webkit-animation:flycoin .5s linear forwards;
+}
+
+.heart{
+    background-image:url("CScake_iPhone.png");
+    position:absolute;
+    background-position-y:112px;
+    width:20px;
+    height:12px;
+    left:315px;
+    top:78px;
+    -webkit-animation:flyheart .5s linear forwards;
+}
+
+.lady{
+    background-image:url("ladysprite_iPhone.png");
+    position:absolute;
+    width:45px;
+    height:47px;
+    left:301px;
+    top:92px;
+    -webkit-animation:lady 5s steps(28) infinite;
+}
+
+.happylady{
+    background-image:url("happylady_iPhone.png");
+    position:absolute;
+    width:48px;
+    height:46px;
+    left:301px;
+    top:92px;
+}
+
+.board{
+    background-image:url("largeboard_iPhone.png");
+    position:absolute;
+    width:90px;
+    height:103px;
+    left:310px;
+    top:40px;
+}
+
+#requestcake{
+    background-image:url("CScake_iPhone.png");
+    position:absolute;
+    width:51px;
+    height:56px;
+    left:34px;
+    top:-53px;
+}
+
+.stand{
+    background-image:url("standing_iPhone.png");
+    position:absolute;
+    width:45px;
+    height:123px;
+    left:423px;
+    top:145px;
+} 
+
+.stand2{
+    left:104px;
+} 
+
+.stand3{
+    left:200px;
+    top:185px;
+} 
+
+.stand4{
+    left:297px;
+}
+
+.walk{
+    background-image:url("walksprite_iPhone.png");
+    position:absolute;
+    width:45px;
+    height:125px;
+    left:423px;
+    top:145px;
+    -webkit-animation:left 1s linear forwards, walk .5s steps(8) infinite forwards;
+}
+
+.walk2{
+    left:297px;
+    -webkit-animation:left2 1s linear forwards, walk2 .5s steps(8) infinite forwards;
+}
+
+.panhand{
+    background-image:url("panhand_iPhone.png");
+    position:absolute;
+    width:70px;
+    height:122px;
+    left:100px;
+    top:145px;
+}
+
+.panhand2{
+    left:190px;
+    top:187px;
+}
+
+.batterhand{
+    background-image:url("batterhand_iPhone.png");
+    position:absolute;
+    width:96px;
+    height:122px;
+    left:74px;
+    top:145px;
+}
+
+.walkright{
+    background-image:url("walkrightsprite_iPhone.png");
+    position:absolute;
+    width:63px;
+    height:124px;
+    left:100px;
+    top:145px;
+    -webkit-animation:right .8s linear forwards, walkright .4s steps(8) infinite forwards;
+}
+
+.walkup{
+    background-image:url("walkupsprite_iPhone.png");
+    position:absolute;
+    width:59px;
+    height:124px;
+    left:180px;
+    top:187px;
+    -webkit-animation:up 1.2s linear forwards, walkup .4s steps(8) infinite forwards;
+}
+
+.baking{
+    background-image:url("ovensprite_iPhone.png");
+    position:absolute;
+    width:76px;
+    height:53px;
+    left:19px;
+    top:168px;
+    -webkit-animation:baking 5s steps(31);
+}
+
+.frosting{
+    background-image:url("frostsprite_iPhone.png");
+    position:absolute;
+    width:77px;
+    height:54px;
+    left:180px;
+    top:231px;
+    -webkit-animation:frosting 5s steps(31);
+}
+
+.frame{
+    background-image:url("processframe_iPhone.png");
+    position:absolute;
+    width:58px;
+    height:18px;
+    left:29px;
+    top:209px;
+}
+
+.frame2{
+    left:191px;
+    top:276px;
+}
+
+.process{
+    background-image:url("processbar_iPhone.png");
+    position:absolute;
+    width:0px;
+    height:11px;
+    left:4px;
+    top:2px;
+    -webkit-animation:process 5s linear forwards;
+}
+
+.smallboard{
+    background-image:url("smallboard_iPhone.png");
+    position:absolute;
+    width:39px;
+    height:45px;
+    left:-66px;
+    top:38px;
+}
+
+.smallboard2{
+    left:201px;
+    top:241px;
+}
+
+.berrycake{
+    background-image:url("strawcake_iPhone.png");
+    position:absolute;
+    width:51px;
+    height:37px;
+    left:-72px;
+    top:41px;
+}
+
+.small{
+    -webkit-transform:scale(.6);
+}
+
+.berrycake2{
+    left:39px;
+    top:15px;
+}
+
+.chococake{
+    background-image:url("CScake_iPhone.png");
+    position:absolute;
+    background-position-y:38px;
+    width:51px;
+    height:37px;
+    left:194px;
+    top:244px;
+}
+
+.chococake2{
+    left:40px;
+    top:12px;
+}
+
+.chococake3{
+    left:-37px;
+    top:13px;
+}
+
+.target{
+    position:absolute;
+    width:38px;
+    height:38px;
+    border-radius:8px;
+    border:4px solid white;
+    left:4px;
+    top:31px;
+    box-shadow: 0 0 0 600px rgba(0, 0, 0, 0.58);
+}
+
+.target2{
+    top:85px;
+}
+
+.target3{
+    width:110px;
+    height:109px;
+    left:2px;
+    top:123px;
+}
+
+.target4{
+    width:47px;
+    height:56px;
+    left:34px;
+    top:176px;
+}
+
+.target5{
+    width:51px;
+    height:49px;
+    left:148px;
+    top:266px;
+}
+
+.target6{
+    width:128px;
+    height:80px;
+    left:151px;
+    top:235px;
+}
+
+.target7{
+    width:47px;
+    height:51px;
+    left:197px;
+    top:237px;
+}
+
+.target8{
+    width:109px;
+    height:112px;
+    left:295px;
+    top:32px;
+}
+
+.target9{
+    width:0px;
+    height:0px;
+    border:0px solid white;
+}
+
+.box{
+    position:absolute;
+    background-color:#b3e7fe;
+    border:3px solid white;
+    border-radius:9px;
+    width:215px;
+    height:33px;
+    left:170px;
+    top:15px;
+}
+
+.box2{
+    top:45px;
+}
+
+.box3{
+    left:205px;
+    top:153px;
+}
+
+.box4{
+    left:56px;
+    top:149px;
+}
+
+.box5{
+    height:44px;
+    left:61px;
+    top:162px;
+}
+
+.speechlady{
+    background-image:url("speechlady_iPhone.png");
+    position:absolute;
+    width:73px;
+    height:78px;
+    left:-54px;
+    top:-16px;
+}
+
+.speechlady2{
+    left:194px;
+    -webkit-transform:scaleX(-1);
+}
+
+.text{
+    position:absolute;
+    width:174px;
+    height:22px;
+    left:20px;
+    top:0px;
+    font-family: sans-serif;
+    font-size:8px;
+    text-align:center;
+    line-height:29px;
+}
+
+.text2{
+    left:27px;
+    top:8px;
+    font-size:8px;
+    text-align:left;
+    line-height:12px;
+}
+
+.arrow{
+    background-image:url("tutarrow_iPhone.png");
+    position:absolute;
+    width:47px;
+    height:34px;
+    left:92px;
+    top:29px;
+    -webkit-animation:point .4s alternate infinite;
+}
+
+.arrow2{
+    top:83px;
+}
+
+.arrow3{
+    left:135px;
+    top:186px;
+}
+
+.arrow5{
+    left:100px;
+    top:275px;
+    -webkit-transform: scaleX(-1);
+    -webkit-animation:point2 .4s alternate infinite;
+}
+
+.arrow7{
+    left:138px;
+    top:246px;
+    -webkit-transform: scaleX(-1);
+    -webkit-animation:point2 .4s alternate infinite;
+}
+
+.arrow8{
+    left:440px;
+    top:82px;
+}
+
+.countertop{
+    background-image:url("countertop_iPhone.png");
+    position:absolute;
+    width:568px;
+    height:92px;
+    left:0px;
+    top:228px;
+}
+
+@-webkit-keyframes bounce{
+    100% {-webkit-transform: scale(1.2);}
+}
+
+@-webkit-keyframes point{
+    100% {-webkit-transform:translateX(-49px);}
+}
+
+@-webkit-keyframes point2{
+    100% {-webkit-transform:translateX(-49px) scaleX(-1);}
+}
+
+@-webkit-keyframes walk{
+    100% {background-position:-362px;}
+}
+
+@-webkit-keyframes left{
+    100% {-webkit-transform:translateX(-319px);}
+}
+
+@-webkit-keyframes walk2{
+    100% {background-position:-362px;}
+}
+
+@-webkit-keyframes left2{
+    100% {-webkit-transform:translateX(-193px);}
+}
+
+@-webkit-keyframes lady{
+    100% {background-position:-1266px;}
+}
+
+@-webkit-keyframes baking{
+    100% {background-position:-2357px;}
+}
+
+@-webkit-keyframes frosting{
+    100% {background-position:-2388px;}
+}
+
+@-webkit-keyframes walkright{
+    100% {background-position:-507px;}
+}
+
+@-webkit-keyframes right{
+    100% {-webkit-transform: translate(90px,41px);}
+}
+
+@-webkit-keyframes walkup{
+    100% {background-position:-476px;}
+}
+
+@-webkit-keyframes up{
+    100% {-webkit-transform: translate(104px,-41px);}
+}
+
+@-webkit-keyframes flycoin{
+    100% {-webkit-transform: translate(-115px, -81px);}
+}
+
+@-webkit-keyframes flyheart{
+    100% {-webkit-transform: translate(107px, -72px);}
+}
+
+@-webkit-keyframes green{
+    100% {width:45px;}
+}
+
+@-webkit-keyframes green2{
+    0% {width:45px;}
+    100% {width:66px;}
+}
+
+@-webkit-keyframes pink{
+    100% {width:35px;}
+}
+
+@-webkit-keyframes pink2{
+    0% {width:35px;}
+    100% {width:50px;}
+}
+
+@-webkit-keyframes process{
+    100% {width:50px;}
+}
